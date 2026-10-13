@@ -6,13 +6,13 @@ Deployment note: The live website and health endpoint below were shared/tested d
 
 🔗 Project Links
 
-GitHub repository : [https://github.com/ravindi5387/E-Commerce-Platform](url)
+GitHub repository : https://github.com/ravindi5387/E-Commerce-Platform
 
-Live website :[ https://e-commerce-platform-pied.vercel.app/](url)
+Live website :https://ecommerceplatform-rust.vercel.app/
 
-Backend health endpoint :[ https://e-commerce-platform-pied.vercel.app/api/health](url)
+Backend health endpoint : https://e-commerce-platform-pied.vercel.app/
 
-API base path : [https://e-commerce-platform-pied.vercel.app/api](url)
+API base path :https://e-commerce-platform-d0mhmiccl-ravindi-projects.vercel.app/api/health
 
 Deployment note: These URLs use the same Vercel domain based on the URLs tested during deployment. If your backend is deployed under a separate Vercel project/domain, replace the API links and API base path with the actual backend domain.
 
