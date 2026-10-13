@@ -6,25 +6,13 @@ Deployment note: The live website and health endpoint below were shared/tested d
 
 🔗 Project Links
 
-Resource
+GitHub repository : [https://github.com/ravindi5387/E-Commerce-Platform](url)
 
-Link
+Live website :[ https://e-commerce-platform-pied.vercel.app/](url)
 
-GitHub repository
+Backend health endpoint :[ https://e-commerce-platform-pied.vercel.app/api/health](url)
 
-E-Commerce-Platform
-
-Live website
-
-Verdant — E-Commerce Platform
-
-Backend health endpoint
-
-API Health Check
-
-API base path
-
-https://e-commerce-platform-pied.vercel.app/api
+API base path : [https://e-commerce-platform-pied.vercel.app/api](url)
 
 Deployment note: These URLs use the same Vercel domain based on the URLs tested during deployment. If your backend is deployed under a separate Vercel project/domain, replace the API links and API base path with the actual backend domain.
 
@@ -32,91 +20,91 @@ Deployment note: These URLs use the same Vercel domain based on the URLs tested 
 
 Put the image files in a root-level screenshots/ folder next to this README.md. The folder was empty during the latest local check, so these images will appear on GitHub only after you copy them into that folder and push them.
 
-Website screenshots
-
-Page / feature
-
-Expected filename
 
 Homepage
 
-screenshots/01-homepage.png
+<img width="1917" height="971" alt="01-homepage" src="https://github.com/user-attachments/assets/bc219c86-102b-4366-8522-1f851788ad5f" />
+
 
 Products and filtering
 
-screenshots/02-products-and-filtering.png
+<img width="1882" height="947" alt="02-products-and-filtering" src="https://github.com/user-attachments/assets/fff5ed90-33ee-4ba6-9927-6c823d9ed4e2" />
+
+
 
 Product details
 
-screenshots/03-product-details.png
+<img width="1877" height="947" alt="03-product-details" src="https://github.com/user-attachments/assets/ff387c3e-08d4-475b-bc87-018bf127e6cf" />
+
 
 Shopping cart
 
-screenshots/04-shopping-cart.png
+<img width="590" height="921" alt="04-shopping-cart" src="https://github.com/user-attachments/assets/ae01f3cc-e4d6-4974-a5ed-4106614d15c5" />
 
 Registration
 
-screenshots/05-registration.png
+<img width="1902" height="962" alt="05-registration" src="https://github.com/user-attachments/assets/6a5ad7d4-5975-42a7-931b-6c346a6c71f0" />
+
 
 Login
 
-screenshots/06-login.png
+<img width="1897" height="940" alt="06-login" src="https://github.com/user-attachments/assets/311ac89b-0843-4e22-9b28-9f260428075a" />
+
 
 Checkout and order confirmation
 
-screenshots/07-checkout-order-confirmation.png
+<img width="560" height="750" alt="07-checkout-order-confirmation" src="https://github.com/user-attachments/assets/86bb0f12-782c-4984-aa6d-bcf543e043c9" />
+
 
 Order history
 
-screenshots/08-order-history.png
+<img width="1880" height="920" alt="08-order-history" src="https://github.com/user-attachments/assets/55166fcc-bf8d-460b-8a2d-86888d6ee9bf" />
+
 
 Homepage
 
-Products and filtering
+<img width="1917" height="971" alt="01-homepage" src="https://github.com/user-attachments/assets/d5b9f2d8-7968-4ea0-8a70-3edbc3a61ff3" />
 
-Product details
-
-Shopping cart
-
-Registration
-
-Login
-
-Checkout and order confirmation
-
-Order history
 
 Database evidence
 
-Suggested filenames, if you capture these screenshots:
+database-tables
 
-screenshots/09-database-tables.png
+<img width="1917" height="900" alt="09-database-tables" src="https://github.com/user-attachments/assets/03385a99-ec14-497d-86fd-874fb990c7e8" />
 
-screenshots/10-database-products.png
+database-products
 
-screenshots/11-database-users.png
+<img width="1612" height="641" alt="10-database-products" src="https://github.com/user-attachments/assets/af4231ed-9505-4008-9b9d-1923ef64ee0f" />
 
-screenshots/12-database-orders.png
 
-screenshots/13-database-order-items.png
+database-users
+
+<img width="1910" height="711" alt="11-database-users" src="https://github.com/user-attachments/assets/24696b1e-c4cc-4b1f-8c16-288fbe536f25" />
+
+
+database-orders
+
+<img width="1892" height="737" alt="12-database-orders" src="https://github.com/user-attachments/assets/bb6c0dd5-31b9-4bd7-97b7-a99c202268aa" />
+
+database-order-items
+
+<img width="1917" height="607" alt="13-database-order-items" src="https://github.com/user-attachments/assets/1aa85099-9a1f-4c63-b9f3-37d2d3d71fd6" />
+
 
 API testing evidence
 
-Suggested Postman screenshot filenames:
+api-products
 
-screenshots/14-api-health.png
+<img width="1917" height="1010" alt="15-api-products" src="https://github.com/user-attachments/assets/25685678-39c6-4919-9b87-392bcd094550" />
 
-screenshots/15-api-products.png
+api-register
 
-screenshots/16-api-register.png
+<img width="1905" height="997" alt="16-api-register" src="https://github.com/user-attachments/assets/e8933486-440a-4c14-a547-d7b3ae74d6b8" />
 
-screenshots/17-api-login.png
+api-login
 
-screenshots/18-api-authenticated-user.png (only if implemented)
+<img width="1917" height="1015" alt="17-api-login" src="https://github.com/user-attachments/assets/ab24895a-a119-4c45-85dd-0fa7ad398c24" />
 
-screenshots/19-api-create-order.png
-
-screenshots/20-api-order-history.png
 
 Privacy: Mask passwords, JWT/access tokens, database connection strings, and private user information in screenshots. Remove any image reference above if you do not capture or implement that feature/endpoint.
 
@@ -198,21 +186,7 @@ Keep this list aligned with the dependencies and code actually present in the re
 
 🏗️ Project Structure
 
-E-Commerce-Platform/
-├── frontend/
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│ └── ...
-├── backend/
-│ ├── src/
-│ ├── database/
-│ │ └── schema.sql
-│ ├── package.json
-│ └── ...
-├── screenshots/
-├── .gitignore
-└── README.md
+<img width="1300" height="1210" alt="image" src="https://github.com/user-attachments/assets/fdd0eebc-32b9-4942-9bab-a4034b63de39" />
 
 The exact source-file layout may vary slightly by branch.
 
@@ -313,61 +287,7 @@ Your local response may differ.
 
 These paths were used during testing/planning. Confirm them against the backend router code because endpoint names, fields, and status codes can vary.
 
-Method
-
-Endpoint
-
-Purpose
-
-GET
-
-/api/health
-
-Health/database connectivity check
-
-GET
-
-/api/products
-
-Retrieve products
-
-POST
-
-/api/auth/register
-
-Register a user
-
-POST
-
-/api/auth/login
-
-Log in
-
-GET
-
-/api/auth/me
-
-Current authenticated user, if implemented
-
-POST
-
-/api/orders
-
-Create an order, if implemented at this route
-
-GET
-
-/api/orders/my
-
-Retrieve the current user's orders, if implemented at this route
-
-Example: products request
-
-GET /api/products
-
-Full deployed URL used for testing:
-
-https://e-commerce-platform-pied.vercel.app/api/products
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0143b18c-0eea-4f4f-8e57-177b68df2b97" />
 
 Example: registration request
 
